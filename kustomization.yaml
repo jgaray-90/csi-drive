@@ -1,0 +1,6 @@
+bases:
+  - ../base
+namespace: kubevirt-csi-driver
+patchesStrategicMerge:
+  - infra-namespace-configmap.yaml
+  - storageclass.yaml
